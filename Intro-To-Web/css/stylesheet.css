@@ -1,26 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,500&display=swap');
 
+/* commented out spacing for the hero section to take full width */
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 2rem 6rem;
-    padding:20px;
+    /* margin: 2rem 6rem; */
+    /* padding:20px; */
 }
 
-/* h1 {
-    color: #497E92;
-} */
+ h1 {
+    color: #00C4FF;
+    font-size: 60px;
+} 
+
+#introStatement {
+    font-size: 30px;
+    color: white;
+}
 
 article {
     background-color: #C3F9FF;
 }
 
 header {
-    background-color: #497E92;
+    /* background-color: #497E92; */
+    background-image: url('../images/Banner2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-blend-mode: darken; */
     text-align: center;
     padding: 20px;
+    height: 500px;
 }
 header img{
-    border: 5px solid black;
+    border: 5px solid #00C4FF;
     border-radius: 50%;
     position: relative;
 }
