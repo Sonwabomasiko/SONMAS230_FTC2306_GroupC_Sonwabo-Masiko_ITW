@@ -61,3 +61,23 @@ button a{
     text-decoration: none;
     color: white;
 }
+
+/*resume 08 Media Queries*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+h1 {
+    font-size: 40px;
+}
+p {
+    font-size: 12px;
+}
+#introStatement {
+    font-size: 20px;
+}
+#backtotop {
+    float: right;
+    border-radius: 10px;
+    padding: 5px;
+}
+}
